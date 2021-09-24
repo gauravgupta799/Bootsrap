@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="bstrap.css" />
+    <title>Bootstrap Table</title>
+  </head>
+  <body>
+    <div class="table">
+      <h2>Bootstrap Table</h2>
+      <div class="table-list">
+        <ul style="font-size: 25px; margin-left: 20px">
+          <li>.table-striped -> Zebra stripes to a table</li>
+          <li>
+            .table-bordered -> Adds boder on all sides of the table and cells.
+          </li>
+          <li>
+            .table-hover -> Adds a hover effect with grey background on table
+            rows.
+          </li>
+          <li>
+            .table-condensed -> More compact by cutting cell padding in half.
+          </li>
+          <li>.active -> Hover to table row or cell.</li>
+          <li>.success -> Successful or positive action</li>
+          <li>.info -> Neutral informative change or action.</li>
+          <li>.warning -> Might need attention</li>
+          <li>.danger -> dangerous or potentially negative action</li>
+          <li>table-responsive</li>
+        </ul>
+      </div>
+      <hr style="border: 1px solid black" />
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Roll No.</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Phone No.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Gaurav</td>
+            <td>Gupta</td>
+            <td>gauravgupta786@gmail.com</td>
+            <td>7565930754</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Rohan</td>
+            <td>Kumar</td>
+            <td>rohan4984@gamilcom</td>
+            <td>7457487738</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Roshan</td>
+            <td>Raj</td>
+            <td>roshan4584@gamilcom</td>
+            <td>7447467738</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="border: 1px solid black" />
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Roll No.</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Phone No.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="primary">
+            <td>1</td>
+            <td>Gaurav</td>
+            <td>Gupta</td>
+            <td>gauravgupta786@gmail.com</td>
+            <td>7565930754</td>
+          </tr>
+          <tr class="danger">
+            <td>2</td>
+            <td>Rohan</td>
+            <td>Kumar</td>
+            <td>rohan4984@gamilcom</td>
+            <td>7457487738</td>
+          </tr>
+          <tr class="success">
+            <td>3</td>
+            <td>Roshan</td>
+            <td>Raj</td>
+            <td>roshan4584@gamilcom</td>
+            <td>7447467738</td>
+          </tr>
+          <tr class="info">
+            <td>4</td>
+            <td>Rajesh</td>
+            <td>Joshi</td>
+            <td>rajesh4584@gamilcom</td>
+            <td>7447467738</td>
+          </tr>
+          <tr class="warning">
+            <td>5</td>
+            <td>Roshani</td>
+            <td>Gupta</td>
+            <td>roshani4584@gamilcom</td>
+            <td>7447667738</td>
+          </tr>
+          <tr class="danger">
+            <td>6</td>
+            <td>Roshant</td>
+            <td>Garg</td>
+            <td>roshant4584@gamilcom</td>
+            <td>7447467738</td>
+          </tr>
+          <tr class="active">
+            <td>7</td>
+            <td>Roshant</td>
+            <td>Garg</td>
+            <td>roshant4584@gamilcom</td>
+            <td>7447467738</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="border: 1px solid black" />
+    </div>
+  </body>
+</html>
