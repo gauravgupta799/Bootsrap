@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <title>Bootstrap Button</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bootstack Buttons</h2>
+      <div class="btn-style">
+        <button class="btn">Basic</button>
+        <button class="btn-default">Default</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-link">Link</button>
+      </div>
+      <hr style="border: 1px solid #000" />
+
+      <div class="btn-size">
+        <h2>Button Sizes</h2>
+        <button type="button" class="btn btn-primary">Normal</button>
+        <button class="btn btn-warning btn-lg">Warning</button>
+        <button class="btn btn-success btn-sm">Success</button>
+        <button class="btn btn-info btn-xs">Info</button>
+      </div>
+      <hr style="border: 1px solid #000" />
+
+      <div class="block-levels">
+        <h2>Block Level Buttons</h2>
+        <button type="button" class="btn btn-primary btn-block">Primary</button>
+        <button type="button" class="btn btn-success btn-block">Success</button>
+        <button type="button" class="btn btn-warning btn-block">Warning</button>
+        <button type="button" class="btn btn-info btn-block">Info</button>
+      </div>
+      <hr style="border: 1px solid #000" />
+
+      <div class="active-disabled">
+        <h2>Active/Disabled Buttons</h2>
+        <button type="button" class="btn btn-warning active">
+          Active Warning
+        </button>
+        <button type="button" class="btn btn-info disabled">
+          Disabled Info
+        </button>
+      </div>
+      <hr style="border: 1px solid #000" />
+
+      <div class="button-groups">
+        <h2>Button Groups</h2>
+        <p>
+          Bootstrap allows you to group a series of buttons together in a button
+          group.
+        </p>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Home</button>
+          <button type="button" class="btn btn-success">About</button>
+          <button type="button" class="btn btn-warning">Contact</button>
+        </div>
+        <hr style="border: 1px solid #000" />
+
+        <div class="container">
+          <h2>Button Groups - Set Sizes</h2>
+          <p>Add class .btn-group-* to size all buttons in a button group.</p>
+          <h3>Large Buttons:</h3>
+          <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary">Red</button>
+            <button type="button" class="btn btn-success">Lily</button>
+            <button type="button" class="btn btn-warning">Gold</button>
+          </div>
+          <hr style="border: 1px solid #000" />
+
+          <h3>Default Buttons:</h3>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Bollywood</button>
+            <button type="button" class="btn btn-success">Hollywood</button>
+            <button type="button" class="btn btn-warning">Tollywood</button>
+          </div>
+          <hr style="border: 1px solid #000" />
+
+          <h3>Small Buttons:</h3>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-primary">I </button>
+            <button type="button" class="btn btn-success">We</button>
+            <button type="button" class="btn btn-warning">You</button>
+          </div>
+          <hr style="border: 1px solid #000" />
+
+          <h3>Extra Small Buttons:</h3>
+          <div class="btn-group btn-group-xs">
+            <button type="button" class="btn btn-primary">Child</button>
+            <button type="button" class="btn btn-success">Young</button>
+            <button type="button" class="btn btn-warning">Old</button>
+          </div>
+        </div>
+        <hr style="border: 1px solid #000" />
+
+        <div class="Vertical-btn-groups">
+          <h2>Vertical Button Group</h2>
+          <p>
+            Use the .btn-group-vertical class to create a vertical button group:
+          </p>
+          <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-dander">Samsung</button>
+            <button type="button" class="btn btn-info">Sony</button>
+          </div>
+        </div>
+        <hr style="border: 1px solid #000" />
+
+        <div class="justify-btn-groups">
+          <h2>Justified Button Groups</h2>
+          <p>
+            To span the entire width of the screen, use the .btn-group-justified
+            class:
+          </p>
+          <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-primary">Apple</a>
+            <a href="#" class="btn btn-primary">Samsung</a>
+            <a href="#" class="btn btn-primary">Sony</a>
+          </div>
+        </div>
+        <hr style="border: 1px solid #000" />
+
+        <div class="container">
+          <h2>Nesting Button Groups</h2>
+          <p>Nest button groups to create drop down menus:</p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Sony <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Tablet</a></li>
+                <li><a href="#">Smartphone</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr style="border: 1px solid #000" />
+
+        <div class="container">
+          <h2>Split Buttons</h2>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Sony</button>
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle"
+              data-toggle="dropdown"
+            >
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Smartphone</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr style="border: 1px solid #000" />
+      </div>
+    </div>
+  </body>
+</html>
